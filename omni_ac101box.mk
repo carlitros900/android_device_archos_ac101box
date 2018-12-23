@@ -15,8 +15,8 @@
 #
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
-PRODUCT_DEVICE := archos_ac101box
-PRODUCT_NAME := omni_archos_ac101box
-PRODUCT_BRAND := archos
-PRODUCT_MODEL := Archos 101b Oxygen
-PRODUCT_MANUFACTURER := archos
+PRODUCT_DEVICE := ac101box
+PRODUCT_NAME := omni_ac101box
+PRODUCT_BRAND := Archos
+PRODUCT_MODEL := 101b Oxygen
+PRODUCT_MANUFACTURER := Archos
