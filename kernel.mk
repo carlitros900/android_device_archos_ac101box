@@ -22,4 +22,4 @@ BOARD_KERNEL_PAGESIZE := 2048
 BOARD_CUSTOM_BOOTIMG := true
 BOARD_CUSTOM_MKBOOTIMG := mtkbootimg
 BOARD_CUSTOM_BOOTIMG_MK := device/generic/twrpbuilder/mtk/bootimg.mk
-BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x03f88000 --tags_offset 0x0df88000 --board '1488287294' --mtk 1
+BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x291cce00 --tags_offset 0x0df88000 --board '1488287294' --mtk 1
