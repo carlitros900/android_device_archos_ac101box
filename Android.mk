@@ -14,9 +14,9 @@
 # limitations under the License.
 #
 
-ifneq ($(filter archos_ac101box,$(TARGET_DEVICE)),)
+ifneq ($(filter ac101box,$(TARGET_DEVICE)),)
 
-LOCAL_PATH := device/archos/archos_ac101box/
+LOCAL_PATH := device/archos/ac101box/
 
 include $(call all-makefiles-under,$(LOCAL_PATH))
 

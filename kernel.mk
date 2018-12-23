@@ -19,4 +19,7 @@ TARGET_PREBUILT_KERNEL := $(LOCAL_PATH)/kernel
 BOARD_KERNEL_CMDLINE := bootopt=64S3,32N2,64N2 androidboot.selinux=permissive
 BOARD_KERNEL_BASE := 0x40078000
 BOARD_KERNEL_PAGESIZE := 2048
-BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x03f88000 --tags_offset 0x0df88000
+BOARD_CUSTOM_BOOTIMG := true
+BOARD_CUSTOM_MKBOOTIMG := mtkbootimg
+BOARD_CUSTOM_BOOTIMG_MK := device/generic/twrpbuilder/mtk/bootimg.mk
+BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x291cce00 --tags_offset 0x0df88000 --board '1488287294' --mtk 1

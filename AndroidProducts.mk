@@ -14,6 +14,6 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/archos/archos_ac101box/
+LOCAL_PATH := device/archos/ac101box/
 
-PRODUCT_MAKEFILES := $(LOCAL_PATH)/omni_archos_ac101box.mk
+PRODUCT_MAKEFILES := $(LOCAL_PATH)/omni_ac101box.mk
